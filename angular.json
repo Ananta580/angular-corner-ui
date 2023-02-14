@@ -62,7 +62,7 @@
               "projects/ngc-showcase/src/favicon.ico",
               "projects/ngc-showcase/src/assets"
             ],
-            "styles": ["projects/ngc-showcase/src/styles.scss"],
+            "styles": ["node_modules/ngc-ui/style.scss"],
             "scripts": []
           },
           "configurations": {
@@ -70,7 +70,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
+                  "maximumWarning": "1mb",
                   "maximumError": "1mb"
                 },
                 {

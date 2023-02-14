@@ -4,5 +4,5 @@
   "lib": {
     "entryFile": "src/public-api.ts"
   },
-  "assets": ["style.scss"]
+  "assets": ["style.scss", "colors.scss", "tailwind.scss"]
 }
