@@ -1,0 +1,45 @@
+<button
+  [disabled]="disabled"
+  (click)="onClick.emit(true)"
+  class="text-base font-semibold flex flex-row gap-2 justify-center items-center"
+  [ngClass]="{
+    'w-full': fullWidth,
+    disabled: disabled,
+    outlined: outline,
+    link: link,
+
+    primary: color === 'primary',
+    'primary-light': color === 'primary-light',
+    'primary-dark': color === 'primary-dark',
+    secondary: color === 'secondary',
+    'secondary-light': color === 'secondary-light',
+    'secondary-dark': color === 'secondary-dark',
+    dark: color === 'dark',
+    light: color === 'light',
+    success: color === 'success',
+    info: color === 'info',
+    error: color === 'error',
+    warning: color === 'warning',
+    'success-light': color === 'success-light',
+    'info-light': color === 'info-light',
+    'error-light': color === 'error-light',
+    'warning-light': color === 'warning-light',
+    'success-dark': color === 'success-dark',
+    'info-dark': color === 'info-dark',
+    'error-dark': color === 'error-dark',
+    'warning-dark': color === 'warning-dark',
+
+    'rounded-full': rounded === 'full',
+    'rounded-sm': rounded === 'small',
+    rounded: rounded === 'medium',
+
+    'p-0': size === 'no-padding',
+    'py-1 px-2 ': size === 'xs',
+    'p-2 px-3': size === 'small',
+    'py-3 px-4': size === 'medium',
+    'py-4 px-6': size === 'big'
+  }"
+>
+  <div class="flex w-full justify-center" *ngIf="loading"></div>
+  <ng-content *ngIf="!loading"></ng-content>
+</button>

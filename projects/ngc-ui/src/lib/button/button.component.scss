@@ -1,0 +1,784 @@
+@import "../../../colors.scss";
+
+button {
+  outline: none !important;
+}
+
+/* Primary Styles */
+.primary {
+  background-color: $primaryColor;
+  color: $primaryTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $primaryColor;
+    background-color: white;
+    color: $primaryColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $primaryColor;
+      background-color: $primaryDimColor;
+      color: $primaryColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $primaryColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $primaryDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $primaryDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Secondary Styles */
+.secondary {
+  background-color: $secondaryColor;
+  color: $secondaryTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $secondaryColor;
+    background-color: white;
+    color: $secondaryColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $secondaryColor;
+      background-color: $secondaryDimColor;
+      color: $secondaryColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $secondaryColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $secondaryDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $secondaryDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Primary light Styles */
+.primary-light {
+  background-color: $primaryLightColor;
+  color: $primaryTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $primaryLightColor;
+    background-color: white;
+    color: $primaryLightColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $primaryLightColor;
+      background-color: $primaryDimColor;
+      color: $primaryLightColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $primaryLightColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $primaryDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $primaryColor;
+    transition: 0.3s;
+  }
+}
+
+/* Secondary light Styles */
+.secondary-light {
+  background-color: $secondaryLightColor;
+  color: $secondaryTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $secondaryLightColor;
+    background-color: white;
+    color: $secondaryLightColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $secondaryLightColor;
+      background-color: $secondaryDimColor;
+      color: $secondaryLightColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $secondaryLightColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $secondaryDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $secondaryColor;
+    transition: 0.3s;
+  }
+}
+
+/* Primary dark Styles */
+.primary-dark {
+  background-color: $primaryDarkColor;
+  color: $primaryTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $primaryDarkColor;
+    background-color: white;
+    color: $primaryDarkColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $primaryDarkColor;
+      background-color: $primaryDimColor;
+      color: $primaryDarkColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $primaryDarkColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $primaryDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $primaryDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Secondary dark Styles */
+.secondary-dark {
+  background-color: $secondaryDarkColor;
+  color: $secondaryTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $secondaryDarkColor;
+    background-color: white;
+    color: $secondaryDarkColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $secondaryDarkColor;
+      background-color: $secondaryDimColor;
+      color: $secondaryDarkColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $secondaryDarkColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $secondaryDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $secondaryDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Dark Styles */
+.dark {
+  background-color: $darkColor;
+  color: $darkTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $darkColor;
+    background-color: white;
+    color: $darkColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $darkColor;
+      background-color: $darkDimColor;
+      color: $darkColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $darkColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $darkDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $darkDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Light Styles */
+.light {
+  background-color: $lightColor;
+  color: $lightTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $lightColor;
+    background-color: white;
+    color: $lightTextColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $lightColor;
+      background-color: $lightDimColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $lightTextColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $lightDimColor;
+      color: $lightTextColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $lightDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Success Styles */
+.success {
+  background-color: $successColor;
+  color: $successTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $successColor;
+    background-color: white;
+    color: $successColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $successColor;
+      background-color: $successDimColor;
+      color: $successColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $successColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $successDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $successDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Error Styles */
+.error {
+  background-color: $errorColor;
+  color: $errorTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $errorColor;
+    background-color: white;
+    color: $errorColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $errorColor;
+      background-color: $errorDimColor;
+      color: $errorColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $errorColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $errorDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $errorDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Warning Styles */
+.warning {
+  background-color: $warningColor;
+  color: $warningTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $warningColor;
+    background-color: white;
+    color: $warningColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $warningColor;
+      background-color: $warningDimColor;
+      color: $warningColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $warningColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $warningDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $warningDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Info Styles */
+.info {
+  background-color: $infoColor;
+  color: $infoTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $infoColor;
+    background-color: white;
+    color: $infoColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $infoColor;
+      background-color: $infoDimColor;
+      color: $infoColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $infoColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $infoDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $infoDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Success light Styles */
+.success-light {
+  background-color: $successLightColor;
+  color: $successLightTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $successLightColor;
+    background-color: white;
+    color: $successLightColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $successLightColor;
+      background-color: $successDimColor;
+      color: $successLightColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $successLightColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $successDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $successColor;
+    color: $successTextColor;
+    transition: 0.3s;
+  }
+}
+
+/* Error light Styles */
+.error-light {
+  background-color: $errorLightColor;
+  color: $errorTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $errorLightColor;
+    background-color: white;
+    color: $errorLightColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $errorLightColor;
+      background-color: $errorDimColor;
+      color: $errorLightColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $errorLightColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $errorDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $errorColor;
+    transition: 0.3s;
+  }
+}
+
+/* Warning light Styles */
+.warning-light {
+  background-color: $warningLightColor;
+  color: $warningTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $warningLightColor;
+    background-color: white;
+    color: $warningLightColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $warningLightColor;
+      background-color: $warningDimColor;
+      color: $warningLightColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $warningLightColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $warningDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $warningColor;
+    transition: 0.3s;
+  }
+}
+
+/* Info light Styles */
+.info-light {
+  background-color: $infoLightColor;
+  color: $warningLightTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $infoLightColor;
+    background-color: white;
+    color: $infoLightColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $infoLightColor;
+      background-color: $infoDimColor;
+      color: $infoLightColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $infoLightColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $infoDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $infoColor;
+    color: $warningTextColor;
+    transition: 0.3s;
+  }
+}
+
+/* Success dark Styles */
+.success-dark {
+  background-color: $successDarkColor;
+  color: $successTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $successDarkColor;
+    background-color: white;
+    color: $successDarkColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $successDarkColor;
+      background-color: $successDimColor;
+      color: $successDarkColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $successDarkColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $successDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $successDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Error dark Styles */
+.error-dark {
+  background-color: $errorDarkColor;
+  color: $errorTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $errorDarkColor;
+    background-color: white;
+    color: $errorDarkColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $errorDarkColor;
+      background-color: $errorDimColor;
+      color: $errorDarkColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $errorDarkColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $errorDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $errorDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Warning dark Styles */
+.warning-dark {
+  background-color: $warningLightColor;
+  color: $warningTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $warningLightColor;
+    background-color: white;
+    color: $warningLightColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $warningLightColor;
+      background-color: $warningDimColor;
+      color: $warningLightColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $warningLightColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $warningDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $warningDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/* Info Styles */
+.info-dark {
+  background-color: $infoDarkColor;
+  color: $infoTextColor;
+  transition: 0.3s;
+
+  /*Outline*/
+  &.outlined {
+    border: 1px solid $infoDarkColor;
+    background-color: white;
+    color: $infoDarkColor;
+    &:hover {
+      transition: 0.3s;
+      border: 1px solid $infoDarkColor;
+      background-color: $infoDimColor;
+      color: $infoDarkColor;
+    }
+  }
+
+  /*Link*/
+  &.link {
+    background-color: transparent;
+    color: $infoDarkColor;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $infoDimColor;
+      transition: 0.3s;
+    }
+  }
+
+  /*Hover*/
+  &:hover {
+    background-color: $infoDarkColor;
+    transition: 0.3s;
+  }
+}
+
+/*Disabled button*/
+.disabled {
+  background-color: $lightGray !important;
+  color: $gray;
+  pointer-events: none;
+  &.outlined {
+    border: 1px solid $lightGray;
+    background-color: white;
+    color: $gray;
+  }
+  &.link {
+    background-color: transparent;
+    color: $gray;
+    transition: 0.3s;
+  }
+}
