@@ -63,8 +63,8 @@
               "projects/ngc-showcase/src/assets"
             ],
             "styles": [
-              "projects/ngc-ui/style.scss",
-              "projects/ngc-showcase/style.scss"
+              "node_modules/ngc-ui/style.scss",
+              "projects/ngc-showcase/src/styles.scss"
             ],
             "scripts": []
           },
