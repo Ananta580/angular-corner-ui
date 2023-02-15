@@ -62,7 +62,10 @@
               "projects/ngc-showcase/src/favicon.ico",
               "projects/ngc-showcase/src/assets"
             ],
-            "styles": ["node_modules/ngc-ui/style.scss"],
+            "styles": [
+              "projects/ngc-ui/style.scss",
+              "projects/ngc-showcase/style.scss"
+            ],
             "scripts": []
           },
           "configurations": {

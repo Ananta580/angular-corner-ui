@@ -1,0 +1,115 @@
+<div class="flex flex-col p-6 gap-6 w-full">
+  <div style="box-shadow: 0 0 20px 1px #ebebeb" class="p-2 rounded-md">
+    <h1 class="text-xl font-semibold pl-2">Basic Buttons</h1>
+    <div class="flex gap-2 p-5 pl-2">
+      <ngc-button color="primary">Primary</ngc-button>
+      <ngc-button color="secondary">Secondary</ngc-button>
+      <ngc-button color="light">Light</ngc-button>
+      <ngc-button color="dark">Dark</ngc-button>
+      <ngc-button color="success">Success</ngc-button>
+      <ngc-button color="error">Error</ngc-button>
+    </div>
+  </div>
+
+  <div style="box-shadow: 0 0 20px 1px #ebebeb" class="p-2 rounded-md">
+    <h1 class="text-xl font-semibold pl-2">Outlined Buttons</h1>
+    <div class="flex gap-2 p-5 pl-2">
+      <ngc-button [outline]="true" color="primary">Primary</ngc-button>
+      <ngc-button [outline]="true" color="secondary">Secondary</ngc-button>
+      <ngc-button [outline]="true" color="light">Light</ngc-button>
+      <ngc-button [outline]="true" color="dark">Dark</ngc-button>
+      <ngc-button [outline]="true" color="success">Success</ngc-button>
+      <ngc-button [outline]="true" color="error">Error</ngc-button>
+    </div>
+  </div>
+
+  <div style="box-shadow: 0 0 20px 1px #ebebeb" class="p-2 rounded-md">
+    <h1 class="text-xl font-semibold pl-2">Link Buttons</h1>
+    <div class="flex gap-2 p-5 pl-2">
+      <ngc-button [link]="true" color="primary">Primary</ngc-button>
+      <ngc-button [link]="true" color="secondary">Secondary</ngc-button>
+      <ngc-button [link]="true" color="light">Light</ngc-button>
+      <ngc-button [link]="true" color="dark">Dark</ngc-button>
+      <ngc-button [link]="true" color="success">Success</ngc-button>
+      <ngc-button [link]="true" color="error">Error</ngc-button>
+    </div>
+  </div>
+
+  <div style="box-shadow: 0 0 20px 1px #ebebeb" class="p-2 rounded-md">
+    <h1 class="text-xl font-semibold pl-2">Button Sizes</h1>
+    <div class="flex gap-2 p-5 pl-2 items-center">
+      <ngc-button size="big">Big One</ngc-button>
+      <ngc-button size="medium">Medium</ngc-button>
+      <ngc-button size="small">Small</ngc-button>
+      <ngc-button size="xs">Extra Small</ngc-button>
+      <ngc-button size="no-padding">No Padding</ngc-button>
+    </div>
+  </div>
+
+  <div style="box-shadow: 0 0 20px 1px #ebebeb" class="p-2 rounded-md">
+    <h1 class="text-xl font-semibold pl-2">Icon Buttons</h1>
+    <div class="flex gap-2 p-5 pl-2">
+      <ngc-button color="primary"
+        ><span class="material-symbols-outlined"> face </span
+        >Primary</ngc-button
+      >
+      <ngc-button color="secondary"
+        ><span class="material-symbols-outlined"> rocket_launch </span
+        >Secondary</ngc-button
+      >
+      <ngc-button color="light"
+        ><span class="material-symbols-outlined"> travel_explore </span
+        >Light</ngc-button
+      >
+      <ngc-button color="dark"
+        ><span class="material-symbols-outlined"> sunny </span>Dark</ngc-button
+      >
+      <ngc-button color="success"
+        ><span class="material-symbols-outlined"> check_circle </span
+        >Success</ngc-button
+      >
+      <ngc-button color="error"
+        ><span class="material-symbols-outlined"> error </span>Error</ngc-button
+      >
+    </div>
+  </div>
+
+  <div style="box-shadow: 0 0 20px 1px #ebebeb" class="p-2 rounded-md">
+    <h1 class="text-xl font-semibold pl-2">Color variants</h1>
+    <div class="p-3 text-gray-500 flex flex-col gap-2">
+      <h1 class="font-semibold">Normal variants</h1>
+      <div class="flex gap-2">
+        <ngc-button color="primary">Primary</ngc-button>
+        <ngc-button color="secondary">Secondary</ngc-button>
+        <ngc-button color="success">Success</ngc-button>
+        <ngc-button color="error">Error</ngc-button>
+        <ngc-button color="warning">Warning</ngc-button>
+        <ngc-button color="info">Info</ngc-button>
+      </div>
+    </div>
+    <div class="p-3 text-gray-500 flex flex-col gap-2">
+      <h1 class="font-semibold">Light variants</h1>
+      <div class="flex gap-2">
+        <ngc-button color="primary-light">Primary Light</ngc-button>
+        <ngc-button color="secondary-light">Secondary Light</ngc-button>
+        <ngc-button color="light">Light</ngc-button>
+        <ngc-button color="success-light">Success Light</ngc-button>
+        <ngc-button color="error-light">Error Light</ngc-button>
+        <ngc-button color="warning-light">Warning Light</ngc-button>
+        <ngc-button color="info-light">Info Light</ngc-button>
+      </div>
+    </div>
+    <div class="p-3 text-gray-500 flex flex-col gap-2">
+      <h1 class="font-semibold">Dark variants</h1>
+      <div class="flex gap-2">
+        <ngc-button color="primary-dark">Primary Dark</ngc-button>
+        <ngc-button color="secondary-dark">Secondary Dark</ngc-button>
+        <ngc-button color="dark">Dark</ngc-button>
+        <ngc-button color="success-dark">Success Dark</ngc-button>
+        <ngc-button color="error-dark">Error Dark</ngc-button>
+        <ngc-button color="warning-dark">Warning Dark</ngc-button>
+        <ngc-button color="info-dark">Info Dark</ngc-button>
+      </div>
+    </div>
+  </div>
+</div>
